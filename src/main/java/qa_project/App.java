@@ -8,7 +8,7 @@ public class App {
         Customer customer = new Customer();
         MenuSystem menu = new MenuSystem();
 
-        System.out.println(MenuSystem.welcomeMessage);
+        System.out.println("Hello");
         menu.printMenu();
 
         int choice = 0;
