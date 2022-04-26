@@ -44,7 +44,7 @@ public class App {
         }
 
         System.out.println(MenuSystem.farewellMessage);
-        scan.close();
+        //scan.close();
 
     }
 
