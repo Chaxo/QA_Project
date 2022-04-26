@@ -31,6 +31,7 @@ public class App {
                     break;
                 case 4:
                     System.out.println(MenuSystem.optionFour);
+                    customer.deleteCustomer();
                     break;
                 default:
                     System.out.println(MenuSystem.invalidMessage);
@@ -43,7 +44,7 @@ public class App {
         }
 
         System.out.println(MenuSystem.farewellMessage);
-        //scan.close();
+        scan.close();
 
     }
 
